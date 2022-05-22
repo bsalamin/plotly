@@ -146,7 +146,7 @@ function buildMetadata(sample) {
     
     // 4. Create the trace for the gauge chart.
     var gaugeData = {
-      value: wfreqs,
+      value: washFreq,
       type: "indicator",
       mode: "gauge+number",
       title: {text: "<b> Belly Button Washing Frequency </b> <br></br> Scrubs Per Week"},
