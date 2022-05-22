@@ -111,7 +111,7 @@ function buildMetadata(sample) {
         size: sampleValues,
         color: otu_ids,
         colorscale: "Earth"
-      }
+      },
     };
 
     // 2. Create the layout for the bubble chart.
@@ -120,7 +120,7 @@ function buildMetadata(sample) {
       showlegend: false,
       xaxis: {title: "OTU ID", automargin: true},
       yaxis: {automargin: true},
-      hovermode: "closest"
+      hovermode: "closest",
     };
 
     // 3. Use Plotly to plot the data with the layout.
@@ -129,7 +129,6 @@ function buildMetadata(sample) {
   // DELIVERABLE 3
   // Gauge Chart
     // 1. Create a variable that filters the metadata array for the object with the desired sample number.
-    var metadata = data.metadata;
     var filters = metadata.filter(data => data.id == sample);
 
     // 2. Create a variable that holds the first sample in the metadata array.
