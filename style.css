@@ -1,7 +1,7 @@
 .jumbotron {
     background-image: url(https://ychef.files.bbci.co.uk/1600x900/p02wnj16.webp);
-    background-size: 100% 100%;
-    text-align: center;
+    background-size: 100% 56%;
+    text-align: top;
     color: rgb(50, 4, 103);
   }
   .body {
